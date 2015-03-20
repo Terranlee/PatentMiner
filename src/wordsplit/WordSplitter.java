@@ -1,11 +1,33 @@
 package wordsplit;
 
 import java.io.*;
+import java.util.Collections;
+import java.util.Arrays;
+import java.util.ArrayList;
 
+import edu.thu.keyword.dao.DAO;
 import edu.thu.keyword.extract.CountDF;
 import wordsspliter.WordSegConll;
 
 public class WordSplitter {
+	
+	// remove the stop words in a array 
+	public static ArrayList<String> removeStopWords(ArrayList<String> contents){
+		ArrayList<String> answer = new ArrayList<String>();
+		for(int i=0; i<contents.size(); i++){
+			if(!DAO.isInStopwords(contents.get(i)))
+				answer.add(contents.get(i));
+		}
+		return answer;
+	}
+	
+	// sort split Chinese words
+	public static ArrayList<String> sortChineseParagraph(String content){
+		String[] parts = content.split(" ");
+		ArrayList<String> arrStr = new ArrayList<String>(Arrays.asList(parts));
+		Collections.sort(arrStr, new ChineseComparator());
+		return arrStr;
+	}
 	
 	// words will be split by spaces 
 	public static String splitChinese(String content){
@@ -35,7 +57,11 @@ public class WordSplitter {
 			temp = br.readLine();
 			while(temp != null){
 				String ans = splitChinese(temp);
-				ps.println(ans);
+				ArrayList<String> sorted = sortChineseParagraph(ans);
+				ArrayList<String> removed = removeStopWords(sorted);
+				for(int i=0; i<removed.size(); i++)
+					ps.print(removed.get(i) + " ");
+				ps.println("");
 				temp = br.readLine();
 			}
 			
@@ -48,5 +74,9 @@ public class WordSplitter {
 	
 	public static void main(String args[]){
 		parseFile("part_metal.txt", "part_metal.out");
+		if(DAO.isInStopwords("的")){System.out.println("in");} else{System.out.println("out"); }
+		if(DAO.isInStopwords("我")){System.out.println("in");} else{System.out.println("out"); }
+		if(DAO.isInStopwords("李天润")){System.out.println("in");} else{System.out.println("out"); }
+		if(DAO.isInStopwords("张敬卿")){System.out.println("in");} else{System.out.println("out"); }
 	}
 }
