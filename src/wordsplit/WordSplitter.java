@@ -73,7 +73,7 @@ public class WordSplitter {
 	}
 	
 	public static void main(String args[]){
-		parseFile("part_metal.txt", "part_metal.out");
+		//parseFile("part_metal.txt", "part_metal.out");
 		if(DAO.isInStopwords("的")){System.out.println("in");} else{System.out.println("out"); }
 		if(DAO.isInStopwords("我")){System.out.println("in");} else{System.out.println("out"); }
 		if(DAO.isInStopwords("李天润")){System.out.println("in");} else{System.out.println("out"); }
