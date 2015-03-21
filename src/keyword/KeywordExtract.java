@@ -23,7 +23,7 @@ public class KeywordExtract {
 			reader = new BufferedReader(new FileReader(infile));
 			writer = new BufferedWriter(new FileWriter(outfile));
 			String content = "";
-			Integer round = 0;
+			Integer round = new Integer(0);
 			while(true){
 				try {
 					content = reader.readLine();
@@ -32,14 +32,14 @@ public class KeywordExtract {
 					}
 					String keyword = KeywordsExtracter.ExtractKey("", content, 5);
 					writer.write("文本: \n" + content + "\n关键词: \n" + keyword + "\n");
-					if(round % 100 == 0){
+					if(round.intValue() % 100 == 0){
 						System.out.println("Round " + round.toString() + ": " + keyword);
 					}
 				}catch(Exception e){
 					System.out.println("Exception");
 					continue;
 				}finally{
-					round += 1;
+					round = new Integer(round.intValue() + 1);
 				}
 			}
 			}catch(Exception e){
