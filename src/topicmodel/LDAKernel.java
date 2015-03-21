@@ -10,16 +10,18 @@ public class LDAKernel {
 		INF			//do inference for previews unseen data
 	}
 	
+	//LDA parameters
 	private LDAExecType type;
 	private double alpha;
 	private double beta;
-	private int nTopics;
-	private int nIters;
-	private int saveStep;
-	private int tWords;
-	private String dfile;
-	private String dir;
-	private String model;
+	private int nTopics;	//how many topics you want to analyse
+	private int nIters;		//how many Gibbs iteration
+	private int saveStep;	//save answer after how many iterations
+	private int tWords;		//related words of each topic
+	private String dfile;	//input data file
+	//for continuous analysis based on previews answer
+	private String dir;		//previews answers directory
+	private String model;	//previews answer file that already exist
 	
 	private String command;
 	private int counter;
@@ -50,6 +52,18 @@ public class LDAKernel {
 	public void setDfile(String d){	dfile = d;	}
 	public void setDir(String d){	dir = d;	}
 	public void setModel(String m){	model = m;	}
+	
+	//get parameters
+	public LDAExecType getType(){	return type;	}
+	public double getAlpha()	{	return alpha;	}
+	public double getBeta()		{	return beta;	}
+	public int getNTopics()		{	return nTopics;	}
+	public int getNIters()		{	return nIters;	}
+	public int getSaveStep()	{	return saveStep;}
+	public int getTWords()		{	return tWords;	}
+	public String getDfile()	{	return dfile;	}
+	public String getDir()		{	return dir;		}
+	public String getModel()	{	return model;	}
 	
 	//get LDA command, can be used as argv and argc
 	public String getCommand(){	return command;	}
@@ -97,16 +111,30 @@ public class LDAKernel {
 		String path = KWDSettings.rootPath;
 		switch(KWDSettings.osType){
 			case linux_x64:
-				path += "data/ldalibs/liblda.so";
+				path += "data/ldalibs/liblda64.so";
 				break;
 			case windows_x64:
-				path += "data/ldalibs/lda.dll";
+				path += "data/ldalibs/lda64.dll";
 				break;
 			case linux_x86:
+				path += "data/ldalibs/liblda32.so";
+				break;
 			case windows_x86:
-				System.out.println("platform not supported");
+				path += "data/ldalibs/lda32.dll";
 				break;
 			}
 		return path;
+	}
+	
+	public static void main(String[] args){
+		LDAKernel ldak = new LDAKernel();
+		ldak.setType(LDAExecType.EST);
+		ldak.setNIters(1000);
+		ldak.setSaveStep(100);
+		ldak.setTWords(20);
+		ldak.setDfile("trndocs.dat");
+		int argc = ldak.generateCommand();
+		String argv = ldak.getCommand();
+		ldak.calculateLDA(argc, argv);
 	}
 }
