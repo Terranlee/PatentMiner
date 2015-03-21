@@ -26,5 +26,28 @@ public class ChineseStopWordTool {
 		}
 		return answer;
 	}
-
+	
+	// if a single word is stop word
+	public static boolean isStopWord(String word){
+		if(DAO.isInStopwords(word))
+			return true;
+		Matcher m = p.matcher(word);
+		if(m.find() == true)
+			return true;
+		else
+			return false;
+	}
+	
+	public static void main(String[] args){
+		String word = "的";
+		System.out.println(isStopWord(word));
+		ArrayList<String> words = new ArrayList<String>();
+		words.add("需要");
+		words.add("是");
+		words.add("数据挖掘");
+		words = removeStopWords(words);
+		for(int i=0; i<words.size(); i++){
+			System.out.println(words.get(i));
+		}
+	}
 }
