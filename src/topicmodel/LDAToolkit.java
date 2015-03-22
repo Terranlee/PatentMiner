@@ -15,7 +15,9 @@ public class LDAToolkit {
 			return "";
 	}
 	
-	public static ArrayList<String> getTopicWords(LDAKernel ldak, int which){
+	// get the answer after `which` iteration
+	@SuppressWarnings("finally")
+	public static ArrayList<Topic> getTopicWords(LDAKernel ldak, int which){
 		int s = ldak.getSaveStep();
 		int i = ldak.getNIters();
 		int times = i / s;
@@ -23,7 +25,7 @@ public class LDAToolkit {
 			System.out.println("Only saved for " + Integer.toString(times) + " times");
 			return null;
 		}
-		/*
+
 		int iters =  which * s;
 		String name = "";
 		if(iters / 100 == 0)
@@ -40,7 +42,7 @@ public class LDAToolkit {
 		
 		File infile = null;
 		Scanner sc = null;
-		ArrayList<> array = null;
+		ArrayList<Topic> array = null;
 		try{
 			infile = new File(filename);
 			sc = new Scanner(infile);
@@ -54,7 +56,7 @@ public class LDAToolkit {
 					continue;
 				}
 				content2 = sc.next();
-				
+				array.add(new Topic(content1, Double.valueOf(content2)));
 			}
 		}catch(IOException e){
 			System.out.println(e);
@@ -62,10 +64,17 @@ public class LDAToolkit {
 			sc.close();
 			return array;
 		}
-        */
 	}
 	
 	public static void main(String[] args){
-		String filename = "bin/data.txt";
-	
+		LDAKernel ldak = new LDAKernel();
+		ldak.setDfile("trndocs.dat");
+		ldak.setNIters(1000);
+		ldak.setSaveStep(100);
+		
+		ArrayList<Topic> topics = getTopicWords(ldak, 1);
+		for(int i=0; i<topics.size(); i++)
+			System.out.println(topics.get(i).toString());
+	}
+		
 }

@@ -104,7 +104,9 @@ public class LDAKernel {
 	
 	// load shared object file
 	static{
-		System.load(findPathOfLibrary());
+		String dir = findPathOfLibrary();
+		System.out.println(dir);
+		System.load(dir);
 	}
 	
 	private static String findPathOfLibrary(){
