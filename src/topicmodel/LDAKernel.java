@@ -117,7 +117,7 @@ public class LDAKernel {
 				path += "data/ldalibs/lda64.dll";
 				break;
 			case linux_x86:
-				path += "data/ldalibs/liblda32.so";
+				System.out.println("Linux_x86 is currently not supported");
 				break;
 			case windows_x86:
 				path += "data/ldalibs/lda32.dll";
