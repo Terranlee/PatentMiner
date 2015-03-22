@@ -67,5 +67,5 @@ public class LDAToolkit {
 	
 	public static void main(String[] args){
 		String filename = "bin/data.txt";
-	
+	}
 }
