@@ -4,3 +4,5 @@ bin/
 *.dat
 model-*
 wordmap.txt
+elasticsearch/data/*
+newenergy-split.json
