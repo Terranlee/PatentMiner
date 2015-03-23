@@ -1,0 +1,953 @@
+[2015-03-20 21:26:32,287][INFO ][node                     ] [Tony Stark] version[1.4.4], pid[2256], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-03-20 21:26:32,288][INFO ][node                     ] [Tony Stark] initializing ...
+[2015-03-20 21:26:32,300][INFO ][plugins                  ] [Tony Stark] loaded [], sites []
+[2015-03-20 21:26:39,393][INFO ][node                     ] [Tony Stark] initialized
+[2015-03-20 21:26:39,394][INFO ][node                     ] [Tony Stark] starting ...
+[2015-03-20 21:26:39,640][INFO ][transport                ] [Tony Stark] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/59.66.130.67:9300]}
+[2015-03-20 21:26:39,777][INFO ][discovery                ] [Tony Stark] elasticsearch/p5f1lR6CRTaPaFRzsJpnng
+[2015-03-20 21:26:43,643][INFO ][cluster.service          ] [Tony Stark] new_master [Tony Stark][p5f1lR6CRTaPaFRzsJpnng][zhangmatoMacBook-Pro.local][inet[/59.66.130.67:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-20 21:26:43,687][INFO ][http                     ] [Tony Stark] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/59.66.130.67:9200]}
+[2015-03-20 21:26:43,688][INFO ][node                     ] [Tony Stark] started
+[2015-03-20 21:26:43,720][INFO ][gateway                  ] [Tony Stark] recovered [0] indices into cluster_state
+[2015-03-20 21:42:15,908][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-03-20 21:42:16,097][INFO ][node                     ] [Vixen] version[1.4.4], pid[2426], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-03-20 21:42:16,098][INFO ][node                     ] [Vixen] initializing ...
+[2015-03-20 21:42:16,106][INFO ][plugins                  ] [Vixen] loaded [], sites []
+[2015-03-20 21:42:20,908][INFO ][node                     ] [Vixen] initialized
+[2015-03-20 21:42:20,908][INFO ][node                     ] [Vixen] starting ...
+[2015-03-20 21:42:21,111][INFO ][transport                ] [Vixen] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.0.2.15:9300]}
+[2015-03-20 21:42:21,208][INFO ][discovery                ] [Vixen] elasticsearch/Y55Uuoh2SpeUT7C-y7XXhw
+[2015-03-20 21:42:25,007][INFO ][cluster.service          ] [Vixen] new_master [Vixen][Y55Uuoh2SpeUT7C-y7XXhw][txubvirt][inet[/10.0.2.15:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-20 21:42:25,055][INFO ][http                     ] [Vixen] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.0.2.15:9200]}
+[2015-03-20 21:42:25,056][INFO ][node                     ] [Vixen] started
+[2015-03-20 21:42:25,082][INFO ][gateway                  ] [Vixen] recovered [0] indices into cluster_state
+[2015-03-20 21:43:05,791][INFO ][node                     ] [Vixen] stopping ...
+[2015-03-20 21:43:05,860][INFO ][node                     ] [Vixen] stopped
+[2015-03-20 21:43:05,860][INFO ][node                     ] [Vixen] closing ...
+[2015-03-20 21:43:05,882][INFO ][node                     ] [Vixen] closed
+[2015-03-20 21:47:47,374][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-03-20 21:47:47,553][INFO ][node                     ] [Arc] version[1.4.4], pid[2478], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-03-20 21:47:47,553][INFO ][node                     ] [Arc] initializing ...
+[2015-03-20 21:47:47,562][INFO ][plugins                  ] [Arc] loaded [], sites []
+[2015-03-20 21:47:53,183][INFO ][node                     ] [Arc] initialized
+[2015-03-20 21:47:53,184][INFO ][node                     ] [Arc] starting ...
+[2015-03-20 21:47:53,408][INFO ][transport                ] [Arc] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.0.2.15:9300]}
+[2015-03-20 21:47:53,460][INFO ][discovery                ] [Arc] elasticsearch/G0EkyzVaQJSyowQRmVI86Q
+[2015-03-20 21:47:57,265][INFO ][cluster.service          ] [Arc] new_master [Arc][G0EkyzVaQJSyowQRmVI86Q][txubvirt][inet[/10.0.2.15:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-20 21:47:57,305][INFO ][http                     ] [Arc] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.0.2.15:9200]}
+[2015-03-20 21:47:57,305][INFO ][node                     ] [Arc] started
+[2015-03-20 21:47:57,318][INFO ][gateway                  ] [Arc] recovered [0] indices into cluster_state
+[2015-03-20 21:49:32,377][INFO ][node                     ] [Arc] stopping ...
+[2015-03-20 21:49:32,450][INFO ][node                     ] [Arc] stopped
+[2015-03-20 21:49:32,451][INFO ][node                     ] [Arc] closing ...
+[2015-03-20 21:49:32,462][INFO ][node                     ] [Arc] closed
+[2015-03-20 21:51:45,855][INFO ][cluster.metadata         ] [Tony Stark] [customer] creating index, cause [api], shards [5]/[1], mappings []
+[2015-03-20 21:57:47,126][INFO ][cluster.metadata         ] [Tony Stark] [customer] update_mapping [external] (dynamic)
+[2015-03-20 21:58:06,922][DEBUG][action.index             ] [Tony Stark] [customer][2], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [index {[customer][external][1], source[_na_]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse, document is empty
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:560)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:491)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:413)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:189)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:512)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:419)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-03-20 22:01:36,396][INFO ][cluster.metadata         ] [Tony Stark] [customer] deleting index
+[2015-03-20 22:02:09,786][INFO ][cluster.metadata         ] [Tony Stark] [customer] creating index, cause [api], shards [5]/[1], mappings []
+[2015-03-20 22:02:29,289][INFO ][cluster.metadata         ] [Tony Stark] [customer] deleting index
+[2015-03-20 22:08:49,843][INFO ][cluster.metadata         ] [Tony Stark] [customer] creating index, cause [api], shards [5]/[1], mappings []
+[2015-03-20 22:13:10,053][INFO ][cluster.metadata         ] [Tony Stark] [customer] update_mapping [external] (dynamic)
+[2015-03-20 22:18:19,986][INFO ][cluster.metadata         ] [Tony Stark] [customer] update_mapping [external] (dynamic)
+[2015-03-20 22:30:31,632][INFO ][cluster.metadata         ] [Tony Stark] [bank] creating index, cause [api], shards [5]/[1], mappings []
+[2015-03-20 22:32:13,039][INFO ][cluster.metadata         ] [Tony Stark] [bank;] creating index, cause [auto(bulk api)], shards [5]/[1], mappings []
+[2015-03-20 22:32:13,407][INFO ][cluster.metadata         ] [Tony Stark] [bank;] update_mapping [account] (dynamic)
+[2015-03-20 22:32:29,112][INFO ][cluster.metadata         ] [Tony Stark] [bank] update_mapping [account] (dynamic)
+[2015-03-20 22:33:10,172][INFO ][cluster.metadata         ] [Tony Stark] [customer] deleting index
+[2015-03-20 22:33:18,584][INFO ][cluster.metadata         ] [Tony Stark] [bank;] deleting index
+[2015-03-20 22:52:09,890][DEBUG][action.search.type       ] [Tony Stark] [bank][3], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@32eb915b] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": { "match_all:{"gender": "F"}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('g' (code 103)): was expecting a colon to separate field name and value
+ at [Source: [B@6d7d33fd; line: 3, column: 26]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:2759)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2734)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:697)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:266)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 22:52:09,890][DEBUG][action.search.type       ] [Tony Stark] [bank][1], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@32eb915b] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": { "match_all:{"gender": "F"}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('g' (code 103)): was expecting a colon to separate field name and value
+ at [Source: [B@6d7d33fd; line: 3, column: 26]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:2759)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2734)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:697)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:266)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 22:52:09,890][DEBUG][action.search.type       ] [Tony Stark] [bank][4], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@32eb915b] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": { "match_all:{"gender": "F"}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('g' (code 103)): was expecting a colon to separate field name and value
+ at [Source: [B@6d7d33fd; line: 3, column: 26]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:2759)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2734)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:697)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:266)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 22:52:09,890][DEBUG][action.search.type       ] [Tony Stark] [bank][0], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@32eb915b]
+org.elasticsearch.search.SearchParseException: [bank][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": { "match_all:{"gender": "F"}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('g' (code 103)): was expecting a colon to separate field name and value
+ at [Source: [B@6d7d33fd; line: 3, column: 26]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:2759)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2734)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:697)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:266)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 22:52:09,911][DEBUG][action.search.type       ] [Tony Stark] All shards failed for phase: [query]
+[2015-03-20 22:52:09,890][DEBUG][action.search.type       ] [Tony Stark] [bank][2], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@32eb915b] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": { "match_all:{"gender": "F"}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('g' (code 103)): was expecting a colon to separate field name and value
+ at [Source: [B@6d7d33fd; line: 3, column: 26]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:2759)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2734)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:697)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:266)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:05:23,964][DEBUG][action.search.type       ] [Tony Stark] [bank][0], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4eaae3c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {{ "match" :{"address": "mill lane"}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@149c2a14; line: 3, column: 12]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:266)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:05:23,965][DEBUG][action.search.type       ] [Tony Stark] [bank][3], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4eaae3c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {{ "match" :{"address": "mill lane"}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@149c2a14; line: 3, column: 12]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:266)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:05:23,965][DEBUG][action.search.type       ] [Tony Stark] [bank][2], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4eaae3c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {{ "match" :{"address": "mill lane"}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@149c2a14; line: 3, column: 12]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:266)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:05:23,965][DEBUG][action.search.type       ] [Tony Stark] [bank][1], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4eaae3c4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {{ "match" :{"address": "mill lane"}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@149c2a14; line: 3, column: 12]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:266)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:05:23,965][DEBUG][action.search.type       ] [Tony Stark] [bank][4], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4eaae3c4]
+org.elasticsearch.search.SearchParseException: [bank][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {{ "match" :{"address": "mill lane"}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@149c2a14; line: 3, column: 12]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:266)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:05:23,970][DEBUG][action.search.type       ] [Tony Stark] All shards failed for phase: [query]
+[2015-03-20 23:06:18,630][DEBUG][action.search.type       ] [Tony Stark] [bank][0], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4ec0c49c] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"address": "lane"}]}}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@63e4f965; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:06:18,630][DEBUG][action.search.type       ] [Tony Stark] [bank][3], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4ec0c49c] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"address": "lane"}]}}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@63e4f965; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:06:18,630][DEBUG][action.search.type       ] [Tony Stark] [bank][4], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4ec0c49c] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"address": "lane"}]}}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@63e4f965; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:06:18,630][DEBUG][action.search.type       ] [Tony Stark] [bank][1], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4ec0c49c] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"address": "lane"}]}}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@63e4f965; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:06:18,630][DEBUG][action.search.type       ] [Tony Stark] [bank][2], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4ec0c49c]
+org.elasticsearch.search.SearchParseException: [bank][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"address": "lane"}]}}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@63e4f965; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:06:18,634][DEBUG][action.search.type       ] [Tony Stark] All shards failed for phase: [query]
+[2015-03-20 23:06:28,478][DEBUG][action.search.type       ] [Tony Stark] [bank][1], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@65c8fb40] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"address": "lane"}]}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@74095e8; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:06:28,478][DEBUG][action.search.type       ] [Tony Stark] [bank][0], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@65c8fb40] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"address": "lane"}]}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@74095e8; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:06:28,478][DEBUG][action.search.type       ] [Tony Stark] [bank][2], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@65c8fb40] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"address": "lane"}]}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@74095e8; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:06:28,478][DEBUG][action.search.type       ] [Tony Stark] [bank][4], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@65c8fb40]
+org.elasticsearch.search.SearchParseException: [bank][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"address": "lane"}]}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@74095e8; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:06:28,481][DEBUG][action.search.type       ] [Tony Stark] All shards failed for phase: [query]
+[2015-03-20 23:06:28,478][DEBUG][action.search.type       ] [Tony Stark] [bank][3], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@65c8fb40] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"address": "lane"}]}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@74095e8; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:07:00,204][DEBUG][action.search.type       ] [Tony Stark] [bank][0], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@40d97996] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"match": {"address": "lane"}}]}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@7c31d58a; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:07:00,204][DEBUG][action.search.type       ] [Tony Stark] [bank][4], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@40d97996]
+org.elasticsearch.search.SearchParseException: [bank][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"match": {"address": "lane"}}]}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@7c31d58a; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:07:00,204][DEBUG][action.search.type       ] [Tony Stark] [bank][1], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@40d97996] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"match": {"address": "lane"}}]}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@7c31d58a; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:07:00,204][DEBUG][action.search.type       ] [Tony Stark] [bank][2], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@40d97996] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"match": {"address": "lane"}}]}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@7c31d58a; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:07:00,204][DEBUG][action.search.type       ] [Tony Stark] [bank][3], node[p5f1lR6CRTaPaFRzsJpnng], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@40d97996] lastShard [true]
+org.elasticsearch.search.SearchParseException: [bank][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [ 
+{
+"query": {"bool":{"must":[{ "match" :{"address": "mill"},{"match": {"address": "lane"}}]}}
+}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:687)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:543)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:515)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:277)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [bank] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:671)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@7c31d58a; line: 3, column: 59]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1419)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:508)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:437)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:1808)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1496)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:693)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:284)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:93)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-03-20 23:07:00,205][DEBUG][action.search.type       ] [Tony Stark] All shards failed for phase: [query]

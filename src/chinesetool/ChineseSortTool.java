@@ -12,7 +12,6 @@ class ChineseComparator implements Comparator<String>{
 	// words are sorted by pinyin
 	Collator cmp = Collator.getInstance(java.util.Locale.CHINA);
 	
-	@Override
 	public int compare(String s1, String s2){
 		if(cmp.compare(s1, s2) > 0){
 			return 1;
@@ -41,7 +40,7 @@ public class ChineseSortTool{
 	}
 	
 	public static void main(String[] args){
-		String content = "×¨Àû ÍÚ¾ò ¹¤³Ì";
+		String content = "×¨ï¿½ï¿½ ï¿½Ú¾ï¿½ ï¿½ï¿½ï¿½ï¿½";
 		ArrayList<String> ans = ChineseSortTool.sortChineseParagraph(content);
 		for(int i=0; i<ans.size(); i++){
 			System.out.println(ans.get(i));

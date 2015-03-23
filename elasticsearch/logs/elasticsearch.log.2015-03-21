@@ -1,0 +1,22 @@
+[2015-03-21 00:40:14,604][INFO ][node                     ] [Tony Stark] stopping ...
+[2015-03-21 00:40:14,763][INFO ][node                     ] [Tony Stark] stopped
+[2015-03-21 00:40:14,763][INFO ][node                     ] [Tony Stark] closing ...
+[2015-03-21 00:40:14,804][INFO ][node                     ] [Tony Stark] closed
+[2015-03-21 00:40:52,856][INFO ][node                     ] [Hank Pym] version[1.4.4], pid[2715], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-03-21 00:40:52,856][INFO ][node                     ] [Hank Pym] initializing ...
+[2015-03-21 00:40:52,876][INFO ][plugins                  ] [Hank Pym] loaded [], sites []
+[2015-03-21 00:41:00,444][INFO ][node                     ] [Hank Pym] initialized
+[2015-03-21 00:41:00,445][INFO ][node                     ] [Hank Pym] starting ...
+[2015-03-21 00:41:01,007][INFO ][transport                ] [Hank Pym] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/59.66.130.67:9300]}
+[2015-03-21 00:41:01,142][INFO ][discovery                ] [Hank Pym] elasticsearch/ZQUMZJyqShuV7SrMksO9nQ
+[2015-03-21 00:41:04,985][INFO ][cluster.service          ] [Hank Pym] new_master [Hank Pym][ZQUMZJyqShuV7SrMksO9nQ][zhangmatoMacBook-Pro.local][inet[/59.66.130.67:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-21 00:41:05,042][INFO ][http                     ] [Hank Pym] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/59.66.130.67:9200]}
+[2015-03-21 00:41:05,042][INFO ][node                     ] [Hank Pym] started
+[2015-03-21 00:41:06,028][INFO ][gateway                  ] [Hank Pym] recovered [1] indices into cluster_state
+[2015-03-21 00:41:50,085][INFO ][cluster.metadata         ] [Hank Pym] [bank] deleting index
+[2015-03-21 00:45:44,817][INFO ][cluster.metadata         ] [Hank Pym] [newenergy] creating index, cause [auto(bulk api)], shards [5]/[1], mappings []
+[2015-03-21 00:45:53,227][INFO ][cluster.metadata         ] [Hank Pym] [newenergy] update_mapping [split] (dynamic)
+[2015-03-21 01:57:49,913][INFO ][node                     ] [Hank Pym] stopping ...
+[2015-03-21 01:57:50,040][INFO ][node                     ] [Hank Pym] stopped
+[2015-03-21 01:57:50,040][INFO ][node                     ] [Hank Pym] closing ...
+[2015-03-21 01:57:50,092][INFO ][node                     ] [Hank Pym] closed

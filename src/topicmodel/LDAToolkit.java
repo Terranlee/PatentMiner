@@ -88,5 +88,4 @@ public class LDAToolkit {
 		for(int i=0; i<100; i++)
 			System.out.println(topics.get(i).toString());
 	}
-		
 }
