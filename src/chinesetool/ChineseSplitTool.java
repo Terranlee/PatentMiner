@@ -58,7 +58,7 @@ public class ChineseSplitTool {
 	}
 	
 	public static void main(String args[]){
-		parseFile("newenergy.dat", "newenergy_out.dat");
+		parseFile("part_energy.dat", "part_energy_split.dat");
 		/*
 		if(DAO.isInStopwords("µÄ")){System.out.println("in");} else{System.out.println("out"); }
 		if(DAO.isInStopwords("ÎÒ")){System.out.println("in");} else{System.out.println("out"); }

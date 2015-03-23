@@ -19,7 +19,7 @@ public class Topic implements Comparable{
 	
 	@Override
 	public String toString(){
-		return name + Double.toString(value);
+		return name + " " + Double.toString(value);
 	}
 	
 	public int compareTo(Object o){

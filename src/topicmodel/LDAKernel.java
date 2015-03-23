@@ -105,7 +105,6 @@ public class LDAKernel {
 	// load shared object file
 	static{
 		String dir = findPathOfLibrary();
-		System.out.println(dir);
 		System.load(dir);
 	}
 	
@@ -134,7 +133,7 @@ public class LDAKernel {
 		ldak.setNIters(1000);
 		ldak.setSaveStep(100);
 		ldak.setTWords(20);
-		ldak.setDfile("trndocs.dat");
+		ldak.setDfile("part_energy_split.dat");
 		int argc = ldak.generateCommand();
 		String argv = ldak.getCommand();
 		ldak.calculateLDA(argc, argv);
