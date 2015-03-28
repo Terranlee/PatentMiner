@@ -61,8 +61,7 @@ public class ChineseSplitTool {
 		System.out.println("This is chinese words split tools");
 		String input, output;
 		try{
-			System.out.println("Please type the input filename");
-			System.out.print(">");
+			System.out.println("Please type the input filename");			
 			BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 			input = bf.readLine();
 			System.out.println("Please type the output filename");

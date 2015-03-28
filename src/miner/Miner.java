@@ -13,6 +13,7 @@ public class Miner {
 		System.out.println("4.(e)    Build elastic search for documents");
 		System.out.println("5.(exit) Quit this program");
 	}
+	
 	public static void main(String[] args){
 		System.out.println("This is TextMiner. A toolkit provides the following functions:");
 		showHelp();

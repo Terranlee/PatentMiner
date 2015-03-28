@@ -34,11 +34,9 @@ public class LDAToolkit {
 				content2 = sc.next();
 				array.add(new Topic(content1, Double.valueOf(content2)));
 			}
-		}catch(IOException e){
-			System.out.println(e);
-		}finally{
-			sc.close();
-		}
+		}catch(IOException e){	e.printStackTrace();	}
+		finally{	sc.close();	}
+		
 		return array;
 	}
 	
