@@ -15,7 +15,7 @@ public class LDAToolkit {
 			return "";
 	}
 	
-	public static ArrayList<Topic> getAllTopics(String filename){
+	private static ArrayList<Topic> getAllTopics(String filename){
 		File infile = null;
 		Scanner sc = null;
 		ArrayList<Topic> array = new ArrayList<Topic>();
@@ -38,9 +38,10 @@ public class LDAToolkit {
 			System.out.println(e);
 		}finally{
 			sc.close();
-			return array;
 		}
+		return array;
 	}
+	
 	
 	// get the answer after `which` iteration
 	// which = [1, max)
@@ -75,7 +76,7 @@ public class LDAToolkit {
 		else{
 			filename = dir + "model-final.twords";
 		}
-		return getAllTopic(filename);
+		return getAllTopics(filename);
 	}
 	
 	public static void main(String[] args){

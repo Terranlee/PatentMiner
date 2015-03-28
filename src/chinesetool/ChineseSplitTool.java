@@ -57,6 +57,22 @@ public class ChineseSplitTool {
 		}
 	}
 	
+	public static void execute(){
+		System.out.println("This is chinese words split tools");
+		String input, output;
+		try{
+			System.out.println("Please type the input filename");
+			System.out.print(">");
+			BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+			input = bf.readLine();
+			System.out.println("Please type the output filename");
+			output = bf.readLine();
+			parseFile(input, output);
+		}catch(IOException e){
+			e.printStackTrace();
+		}
+	}
+	
 	public static void main(String args[]){
 		parseFile("part_energy.dat", "part_energy_split.dat");
 		/*

@@ -53,6 +53,10 @@ public class KeywordExtract {
 			}
 		}
 	
+	public void execute(){
+		
+	}
+	
 	public static void main(String[] args) {
 		long start=System.currentTimeMillis();
 		System.out.println("check stopwords :" + DAO.isInStopwords("提高"));

@@ -99,15 +99,14 @@ public class LDAKernel {
 		return counter;
 	}
 	
+	// The following functions are related to jni
 	//native function
 	public native void calculateLDA(int argc, String argv);
-	
 	// load shared object file
 	static{
 		String dir = findPathOfLibrary();
 		System.load(dir);
 	}
-	
 	private static String findPathOfLibrary(){
 		String path = KWDSettings.rootPath;
 		switch(KWDSettings.osType){
