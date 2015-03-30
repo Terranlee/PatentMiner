@@ -7,5 +7,20 @@
 	<classpathentry kind="lib" path="lib/jxl.jar"/>
 	<classpathentry kind="lib" path="lib/KeywordsExtracter.jar"/>
 	<classpathentry kind="lib" path="lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/elasticsearch-1.4.4.jar"/>
+	<!--<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>-->
+	<classpathentry kind="lib" path="lib/lucene-analyzers-common-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-core-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-expressions-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-grouping-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-highlighter-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-join-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-memory-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-misc-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-queries-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-queryparser-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-sandbox-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-spatial-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-suggest-4.10.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
