@@ -145,9 +145,10 @@ public class DataGenerater {
 	}
 	
 	public static void main(String[] args){
-		String filename = "input.dat";
-		String outfile = "output.dat";
-		keywordAndSplit(filename);
-		mergeFile(filename+splitSuffix, filename+keywordSuffix, outfile);
+		//String filename = "input.dat";
+		//String outfile = "output.dat";
+		//keywordAndSplit(filename);
+		//mergeFile(filename+splitSuffix, filename+keywordSuffix, outfile);
+		randomizeText("newenergy_part.dat");
 	}
 }
