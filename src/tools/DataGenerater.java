@@ -145,7 +145,7 @@ public class DataGenerater {
 	}
 	
 	public static void main(String[] args){
-		String filename = "newenergy_part.dat";
+		String filename = "input.dat";
 		String outfile = "output.dat";
 		keywordAndSplit(filename);
 		mergeFile(filename+splitSuffix, filename+keywordSuffix, outfile);

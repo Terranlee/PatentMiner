@@ -23,7 +23,7 @@ public class ChineseSplitTool {
 		try{
 			// file input, make sure you use the right encoding
 			FileInputStream fis = new FileInputStream(inputFile);
-			InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
+			InputStreamReader isr = new InputStreamReader(fis);
 			BufferedReader br = new BufferedReader(isr);
 			
 			File outFile = new File(outputFile);
