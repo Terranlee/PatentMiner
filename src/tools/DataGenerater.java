@@ -77,7 +77,7 @@ public class DataGenerater {
 					String temp = wordbank.get(ra.nextInt(sz-1));
 					bw.write(temp + " ");
 				}
-				else{	bw.write(arrStr[j]);	}	
+				else{	bw.write(arrStr[j] + " ");	}	
 			}
 			bw.write("\n");
 		}
@@ -88,7 +88,7 @@ public class DataGenerater {
 					String temp = wordbank.get(ra.nextInt(sz-1));
 					bw.write(temp + " ");
 				}
-				else{	bw.write(arrStr[j]);	}	
+				else{	bw.write(arrStr[j] + " ");	}	
 			}
 			bw.write("\n");
 		}
@@ -123,9 +123,11 @@ public class DataGenerater {
 			content1 = br1.readLine();
 			while(content1 != null){
 				content2 = br2.readLine();
+				content2 = br2.readLine();
+				content2 = br2.readLine();
+				content2 = br2.readLine();
 				bw.write(content1 + "\n" + content2 + "\n");
 				content1 = br1.readLine();
-				content2 = br2.readLine();
 			}
 			br1.close();
 			br2.close();
@@ -144,6 +146,8 @@ public class DataGenerater {
 	
 	public static void main(String[] args){
 		String filename = "newenergy_part.dat";
+		String outfile = "output.dat";
 		keywordAndSplit(filename);
+		mergeFile(filename+splitSuffix, filename+keywordSuffix, outfile);
 	}
 }
