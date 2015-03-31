@@ -11,7 +11,7 @@ import edu.thu.keyword.main.KeywordsExtracter;
 
 public class KeywordExtract {
 	
-	private void extractKey(String infilename, String outfilename){
+	public void extractKey(String infilename, String outfilename){
 		File infile = null;
 		File outfile = null;
 		BufferedReader reader = null;
